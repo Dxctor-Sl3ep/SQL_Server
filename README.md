@@ -69,8 +69,8 @@ Créer la base de données `Rate Tracking` en respectant les spécifications de 
 2.  **Création des Fichiers :** La base de données a été créée et les fichiers de données secondaires ont été ajoutés, mappés aux groupes de fichiers respectifs.
 
 
-    * ![Propriétés de la base de données Rate Tracking sous l'onglet Fichiers (avec tous les fichiers et groupes listés)](./images/labo2_db_files.png)
-    * ![Propriétés de la base de données Rate Tracking sous l'onglet Groupes de fichiers (confirmant PRIMARY, USERDATA et ARCHIVE)](./images/labo2_filegroups.png)
+     ![Propriétés de la base de données Rate Tracking sous l'onglet Fichiers (avec tous les fichiers et groupes listés)](./images/labo2_db_files.png)
+     ![Propriétés de la base de données Rate Tracking sous l'onglet Groupes de fichiers (confirmant PRIMARY, USERDATA et ARCHIVE)](./images/labo2_filegroups.png)
 
 ---
 
@@ -122,9 +122,9 @@ Intégrer la base de données `Adventure Works` et configurer un plan de sauvega
 
 2.  **Planification avec Plan de Maintenance (Dimanche, Lundi, Mercredi) :** Un plan de maintenance a été créé pour gérer les sauvegardes Complètes et Incrémentielles de ces trois jours.
     
-    ![Fenêtre de planification du sous-plan de maintenance Dimanche ](./images/labo3_maintenance_plan_1.png)
-    [lundi/mercredi](./images/labo3_maintenance_plan_2.png)
-    [plan recap](./images/labo3_maintenance_plan_4.png)
+    !![Fenêtre de planification du sous-plan de maintenance Dimanche ](./images/labo3_maintenance_plan_1.png)
+    ![lundi/mercredi](./images/labo3_maintenance_plan_2.png)
+    ![plan recap](./images/labo3_maintenance_plan_4.png)
     
 3.  **Planification avec Travail de l'Agent SQL Server (Vendredi) :** Un Travail (Job) séparé a été créé pour la sauvegarde Incrémentielle du Vendredi.
     
@@ -137,19 +137,19 @@ Intégrer la base de données `Adventure Works` et configurer un plan de sauvega
     ![Explorateur de fichiers montrant les fichiers de sauvegarde sur le lecteur U: (page 20 du document sans titre)](./images/labo3_backup_files_explorer.png)
 
 5.  **Agent d'assistance :** Permet une méthode alternative pour planifier les sauvegardes.
-[visualisation d'un subplan](./images/labo3_subplan.png)
+![visualisation d'un subplan](./images/labo3_subplan.png)
 
 6.  **Planification des sauvegardes complètes :**
-[création du dimanche](./images/labo3_planif_dimanche.png)
+![création du dimanche](./images/labo3_planif_dimanche.png)
 
 7.  **Planification des sauvegardes incrémentielles :**
-[création du lun/mer et du ven](./images/labo3_planif_incrementielle.png)
+![création du lun/mer et du ven](./images/labo3_planif_incrementielle.png)
 
 8.  **SQL Associé :**
-[Attention compatibilité SQL Server 2008 R2](./images/labo3_planif_SQL.png)
+![Attention compatibilité SQL Server 2008 R2](./images/labo3_planif_SQL.png)
 
 9.  **Vérification :**
-[Test de vérifications](./images/labo3_verif.png)
+![Test de vérifications](./images/labo3_verif.png)
 
 ---
 
@@ -162,9 +162,9 @@ Définir les Logins et les Utilisateurs pour la base `Adventure Works` selon les
 1.  **Création des Logins (Au niveau du Serveur) :** Les connexions ont été créées.
  ![Capture d'écran des Logins créés dans SSMS sous Sécurité](./images/labo4_logins_ssms1.png)
 2.  **Création des Utilisateurs (Au niveau de la Base) :** Les utilisateurs ont été mappés aux bases de données et aux rôles appropriés.
-    [Capture d'écran des Logins créés dans Win](./images/labo4_logins_win.png)
-    [Utilisation du user Consult](./images/labo4_logins_consult.png)
-    [Utilisation du user redact](./images/labo4_logins_redact.png)
-    [Utilisation du user user1](./images/labo4_logins_user1.png)
-    [Utilisation du user user2](./images/labo4_logins_user2.png)
-    [Capture d'écran des Utilisateurs de la base de données Adventure Works (montrant le mappage aux logins)](./images/labo4_users_db.png)
+    ![Capture d'écran des Logins créés dans Win](./images/labo4_logins_win.png)
+    ![Utilisation du user Consult](./images/labo4_logins_consult.png)
+    ![Utilisation du user redact](./images/labo4_logins_redact.png)
+    ![Utilisation du user user1](./images/labo4_logins_user1.png)
+    ![Utilisation du user user2](./images/labo4_logins_user2.png)
+    ![Capture d'écran des Utilisateurs de la base de données Adventure Works (montrant le mappage aux logins)](./images/labo4_users_db.png)
