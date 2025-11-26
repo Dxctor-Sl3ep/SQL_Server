@@ -68,7 +68,7 @@ Créer la base de données `Rate Tracking` en respectant les spécifications de 
 1.  **Création des Groupes de Fichiers :** Les groupes de fichiers `USERDATA` et `ARCHIVE` ont été créés en amont de l'ajout des fichiers secondaires.
 2.  **Création des Fichiers :** La base de données a été créée et les fichiers de données secondaires ont été ajoutés, mappés aux groupes de fichiers respectifs.
 
-* **À insérer :**
+
     * ![Propriétés de la base de données Rate Tracking sous l'onglet Fichiers (avec tous les fichiers et groupes listés)](./images/labo2_db_files.png)
     * ![Propriétés de la base de données Rate Tracking sous l'onglet Groupes de fichiers (confirmant PRIMARY, USERDATA et ARCHIVE)](./images/labo2_filegroups.png)
 
@@ -118,8 +118,7 @@ Intégrer la base de données `Adventure Works` et configurer un plan de sauvega
 
 1.  **Intégration de la base de données :** La base `Adventure Works` a été attachée à l'instance `MKGTDEV`.
     
-    * **À insérer :**
-        * ![Vue de l'instance dans SSMS montrant la base de données Adventure Works intégrée](./images/labo3_db_integrated.png)
+    ![Vue de l'instance dans SSMS montrant la base de données Adventure Works intégrée](./images/labo3_db_integrated.png)
 
 2.  **Planification avec Plan de Maintenance (Dimanche, Lundi, Mercredi) :** Un plan de maintenance a été créé pour gérer les sauvegardes Complètes et Incrémentielles de ces trois jours.
     
@@ -164,7 +163,6 @@ Définir les Logins et les Utilisateurs pour la base `Adventure Works` selon les
  ![Capture d'écran des Logins créés dans SSMS sous Sécurité](./images/labo4_logins_ssms1.png)
 2.  **Création des Utilisateurs (Au niveau de la Base) :** Les utilisateurs ont été mappés aux bases de données et aux rôles appropriés.
     [Capture d'écran des Logins créés dans Win](./images/labo4_logins_win.png)
-    * **À insérer :**
     [Utilisation du user Consult](./images/labo4_logins_consult.png)
     [Utilisation du user redact](./images/labo4_logins_redact.png)
     [Utilisation du user user1](./images/labo4_logins_user1.png)
