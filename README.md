@@ -46,7 +46,7 @@ Installer et paramétrer une nouvelle instance de SQL Server nommée `MKGTDEV` e
 6.  **Installation :** Vérification finale du résumé avant l'exécution.
     
     ![Résumé Prêt pour l'installation (page 7 du document sans titre)](./images/labo1_summary.png)
-    [fin du screen](./images/labo1_summary_2.png)
+    ![fin du screen](./images/labo1_summary_2.png)
 
 ---
 
